@@ -4,7 +4,7 @@ Course: [Introduction in routing](https://github.com/itmo-ict-faculty/introducti
 Year: 2023/2024
 Group: K33212
 Author: Druzhinin Ilya Antonovich
-Lab: Lab1
+Lab: Lab4
 Date of create: 04.09.2023
 Date of finished: 31.09.2023
 
