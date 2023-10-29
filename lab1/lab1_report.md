@@ -102,7 +102,7 @@ mgmt:
 
 ### Настройка роутера R01
 
-<img src="images/lab1/Screenshot from 2023-10-28 21-50-47.png" width=700>
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2021-50-47.png" width=700>
 
 
 <br/><br/> 
