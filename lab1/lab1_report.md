@@ -8,7 +8,7 @@ Lab: Lab1
 Date of create: 20.10.2023  
 Date of finished: 29.10.2023  
 
-### Лабораторная работа 1 "Установка ContainerLab и развертывание тестовой сети связи"
+## Лабораторная работа 1 "Установка ContainerLab и развертывание тестовой сети связи"
 
 ## Описание
 
@@ -104,7 +104,7 @@ mgmt:
 <br/>
 <br/> 
   
-### Настройка роутера R01
+## Настройка роутера R01
 
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2021-50-47.png" width=1000>
 
@@ -112,7 +112,7 @@ mgmt:
 <br/> 
 <br/> 
   
-### Настройка SW01
+## Настройка SW01
 
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-15-42.png" width=700>
 
@@ -120,7 +120,7 @@ mgmt:
 <br/>
 <br/> 
   
-### Настройка SW02.01
+## Настройка SW02.01
 
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-30-15.png" width=1000>
 
@@ -128,7 +128,7 @@ mgmt:
 <br/>
 <br/> 
   
-### Настройка SW02.02
+## Настройка SW02.02
 
 <img src = "https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-52-37.png" width=1000>
 
@@ -138,7 +138,7 @@ mgmt:
 <br/>
 <br/> 
   
-### Результаты пингов
+## Результаты пингов
 
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-54-07-1.png" width=1000>
 
