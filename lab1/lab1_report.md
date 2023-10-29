@@ -22,7 +22,7 @@ Date of finished: 29.10.2023
 
 * на рабочий компьютер был установлен докер
 * также был установлен ```make``` и склонирован проект hellt/vrnetlab
-* в папку routeros был зашружен файл https://download.mikrotik.com/routeros/6.47.9/chr-6.47.9.vmdk
+* в папку routeros был зашружен файл chr-6.47.9.vmdk
 * с помощью ```make docker-image``` собран образ
   
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A10%3A51.jpg" width=1000>
@@ -108,11 +108,11 @@ mgmt:
 
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2021-50-47.png" width=1000>
 
-- с помощью команд /interface vlan настраиваем два новых интерфеса типа VLAN
-- с помощью команд /interface wireless security-profiles настраиваем профиль безопасности по умолчанию
-- с помощью команд /ip pool добавляем новые пулы ip адресов
-- команды /ip dhcp-server позволяют создать два новых dhcp сервера, связать с ними пулы адресов и вланы
-- далее с помощью /ip address назначаем ip адреса для физических и vlan интерфейсов
+- с помощью команд ```/interface vlan``` настраиваем два новых интерфеса типа VLAN
+- с помощью команд ```/interface wireless security-profiles``` настраиваем профиль безопасности по умолчанию
+- с помощью команд ```/ip pool``` добавляем новые пулы ip адресов
+- команды ```/ip dhcp-server``` позволяют создать два новых dhcp сервера, связать с ними пулы адресов и вланы
+- далее с помощью ```/ip address``` назначаем ip адреса для физических и vlan интерфейсов
 - следующими командами добавляем новый DHCP клиент для интерфейса ether1
 - добавляем новые сети и шлюзы по умолчанию для DHCP сервера
 - устанавливаем имя системы R01
@@ -125,10 +125,10 @@ mgmt:
 
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-15-42.png" width=700>
 
-- с помощью /interface bridge добавляем два сетевых моста
-- /interface vlan добавляем vlan и связываем их с физическими интерфейсами
-- с помощью команд /interface wireless security-profiles настраиваем профиль безопасности по умолчанию
-- с помощью /interface bridge port связываем мосты с виртуальными интерфейсами vlan
+- с помощью ```/interface bridge``` добавляем два сетевых моста
+- ```/interface vlan``` добавляем vlan и связываем их с физическими интерфейсами
+- с помощью команд ```/interface wireless security-profiles``` настраиваем профиль безопасности по умолчанию
+- с помощью ```/interface bridge port``` связываем мосты с виртуальными интерфейсами vlan
 - конфигурируем dhcp клиент
 - устанавливаем имя системы SW01
   
