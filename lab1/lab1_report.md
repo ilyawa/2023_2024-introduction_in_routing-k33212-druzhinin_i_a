@@ -24,7 +24,8 @@ Date of finished: 29.10.2023
 * также был установлен ```make``` и склонирован проект hellt/vrnetlab
 * в папку routeros был зашружен файл https://download.mikrotik.com/routeros/6.47.9/chr-6.47.9.vmdk
 * с помощью ```make docker-image``` собран образ
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A10%3A51.jpg" width=900>
+  
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A10%3A51.jpg" width=700>
 
 
 
