@@ -108,6 +108,15 @@ mgmt:
 
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2021-50-47.png" width=1000>
 
+- с помощью команд /interface vlan настраиваем два новых интерфеса типа VLAN
+- с помощью команд /interface wireless security-profiles настраиваем профиль безопасности по умолчанию
+- с помощью команд /ip pool добавляем новые пулы ip адресов
+- команды /ip dhcp-server позволяют создать два новых dhcp сервера, связать с ними пулы адресов и вланы
+- далее с помощью /ip address назначаем ip адреса для физических и vlan интерфейсов
+- следующими командами добавляем новый DHCP клиент для интерфейса ether1
+- добавляем новые сети и шлюзы по умолчанию для DHCP сервера
+- устанавливаем имя системы R01
+
 
 <br/> 
 <br/> 
@@ -116,14 +125,24 @@ mgmt:
 
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-15-42.png" width=700>
 
-
+- с помощью /interface bridge добавляем два сетевых моста
+- /interface vlan добавляем vlan и связываем их с физическими интерфейсами
+- с помощью команд /interface wireless security-profiles настраиваем профиль безопасности по умолчанию
+- с помощью /interface bridge port связываем мосты с виртуальными интерфейсами vlan
+- конфигурируем dhcp клиент
+- устанавливаем имя системы SW01
+  
 <br/>
 <br/> 
   
 ## Настройка SW02.01
 
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-30-15.png" width=1000>
-
+- создаем сетевой мост
+- конфигурируем vlan
+- настраиваем профиль безопасности
+- конфигурируем dhcp клиент
+- меняем имя системы
 
 <br/>
 <br/> 
@@ -133,7 +152,11 @@ mgmt:
 <img src = "https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-52-37.png" width=1000>
 
 <img src = "https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-52-48.png" width=1000>
-
+- создаем сетевой мост
+- конфигурируем vlan
+- настраиваем профиль безопасности
+- конфигурируем dhcp клиент
+- меняем имя системы
 
 <br/>
 <br/> 
