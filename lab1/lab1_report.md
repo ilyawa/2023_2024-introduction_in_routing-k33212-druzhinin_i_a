@@ -31,6 +31,7 @@ Date of finished: 29.10.2023
 * ContainerLab был установлен из официального репозитория с помощью скрипта ```# download and install the latest release (may require sudo)
 bash -c "$(curl -sL https://get.containerlab.dev)"```
 
+<br/><br/> 
 
 Создаем yaml файл с описанием топологии лабы
 
