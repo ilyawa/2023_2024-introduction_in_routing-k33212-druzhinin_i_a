@@ -32,7 +32,6 @@ Date of finished: 29.10.2023
 bash -c "$(curl -sL https://get.containerlab.dev)"```
 
 <br/><br/> 
-
 Создаем yaml файл с описанием топологии лабы
 
 ```
