@@ -113,28 +113,32 @@ mgmt:
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2021-50-47.png" width=700>
 
 
-<br/> <br/> 
+<br/> 
+<br/> 
   
 ### Настройка SW01
 
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A13%3A26.jpg" width=700>
 
 
-<br/><br/> 
+<br/>
+<br/> 
   
 ### Настройка SW02.01
 
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A13%3A26.jpg" width=700>
 
 
-<br/><br/> 
+<br/>
+<br/> 
   
 ### Настройка SW02.02
 
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A13%3A26.jpg" width=700>
 
 
-<br/><br/> 
+<br/>
+<br/> 
   
 ### Результаты пингов
 
