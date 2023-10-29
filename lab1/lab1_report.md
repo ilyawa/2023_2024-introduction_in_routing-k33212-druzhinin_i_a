@@ -28,4 +28,100 @@ Date of finished: 29.10.2023
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A10%3A51.jpg" width=700>
 
 
+* ContainerLab был установлен из официального репозитория с помощью скрипта ```# download and install the latest release (may require sudo)
+bash -c "$(curl -sL https://get.containerlab.dev)"```
+
+
+Создаем yaml файл с описанием топологии лабы
+
+```
+name: lab1
+
+topology:
+  nodes:
+    R01:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt-ipv4: 172.20.0.2
+
+    PC1:
+      kind: linux
+      image: alpine:latest
+      cmd: sleep infinity
+      mgmt-ipv4: 172.20.0.3
+
+    PC2:
+      kind: linux
+      image: alpine:latest
+      cmd: sleep infinity
+      mgmt-ipv4: 172.20.0.4
+      
+    SW01.L3.01:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt-ipv4: 172.20.0.5
+
+    SW02.L3.01:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt-ipv4: 172.20.0.6
+
+    SW02.L3.02:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt-ipv4: 172.20.0.7
+
+  links:
+      - endpoints: ["R01:eth1", "SW01.L3.01:eth1"]
+      - endpoints: ["SW01.L3.01:eth2", "SW02.L3.01:eth1"]
+      - endpoints: ["SW02.L3.01:eth2", "PC1:eth1"]
+      - endpoints: ["SW01.L3.01:eth3", "SW02.L3.02:eth1"]
+      - endpoints: ["SW02.L3.02:eth2", "PC2:eth1"]
+      
+mgmt:
+  network: static
+  ipv4-subnet: 172.20.0.0/24
+```
+
+Отдельным пунктом конфигурируем mgmt сеть,  которая позволит нам подключитиься к сетевым устройствам для их настройки
+
+Запускаем Container Lab командой ```containerlab deploy```
+
+
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2021-16-13.png" width=700>
+
+
+Лаба успешно запущена теперь можно получить схему топологии сети использую команду ```containerlab graph```
+
+
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A13%3A26.jpg" width=700>
+
+
+### Настройка роутера R01
+
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A13%3A26.jpg" width=700>
+
+### Настройка SW01
+
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A13%3A26.jpg" width=700>
+
+### Настройка SW02.01
+
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A13%3A26.jpg" width=700>
+
+### Настройка SW02.02
+
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A13%3A26.jpg" width=700>
+
+### Результаты пингов
+
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A13%3A26.jpg" width=700>
+
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A13%3A26.jpg" width=700>
+
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A13%3A26.jpg" width=700>
+
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A13%3A26.jpg" width=700>
+
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/IMAGE%202023-10-29%2019%3A13%3A26.jpg" width=700>
 
