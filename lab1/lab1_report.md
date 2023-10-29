@@ -138,6 +138,7 @@ mgmt:
 ## Настройка SW02.01
 
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-30-15.png" width=1000>
+
 - создаем сетевой мост  
 - конфигурируем vlan  
 - настраиваем профиль безопасности  
@@ -152,6 +153,7 @@ mgmt:
 <img src = "https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-52-37.png" width=1000>
 
 <img src = "https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-52-48.png" width=1000>
+
 - создаем сетевой мост  
 - конфигурируем vlan  
 - настраиваем профиль безопасности  
