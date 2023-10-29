@@ -140,14 +140,14 @@ mgmt:
   
 ## Результаты пингов
 
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-54-07-1.png" width=1000>
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-54-07-1.png" width=600>
 
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-54-07.png" width=1000>
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-54-07.png" width=600>
 
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-54-28.png" width=1000>
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-54-28.png" width=600>
 
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-55-00.png" width=1000>
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-55-00.png" width=600>
 
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-55-18.png" width=1000>
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab1/Screenshot%20from%202023-10-28%2022-55-18.png" width=600>
 
 
