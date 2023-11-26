@@ -34,26 +34,55 @@ Date of finished: 26.11.2023
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-21-30.png" width=1000>  
 <br/><br/> 
 
-## Настройка R01.MSK
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-21-30.png" width=1000>  
+### Настройка R01.MSK
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2013-42-08.png" width=1000>  
 
-## Настройка R01.FRN
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-21-30.png" width=1000>  
+- с помощью команд ```/interface vlan``` настраиваем два новых интерфеса типа VLAN
+- с помощью команд ```/interface wireless security-profiles``` настраиваем профиль безопасности по умолчанию
+- с помощью команд ```/ip pool``` добавляем новые пулы ip адресов
+- команды ```/ip dhcp-server``` позволяют создать два новых dhcp сервера, связать с ними пулы адресов и вланы
+- далее с помощью ```/ip address``` назначаем ip адреса для физических и vlan интерфейсов
+- следующими командами добавляем новый DHCP клиент для интерфейса ether1
+- добавляем новые сети и шлюзы по умолчанию для DHCP сервера
+- устанавливаем имя системы R01
 
-## Настройка R01.BRL
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-21-30.png" width=1000>  
+<br/><br/> 
 
-## Настройка PC.MSK
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-21-30.png" width=1000>  
+### Настройка R01.FRT
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2014-42-24.png" width=1000>
+<br/><br/> 
 
-## Настройка PC.FRT
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-21-30.png" width=1000>  
+### Настройка R01.BRL
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2015-03-27.png" width=1000>
+<br/><br/> 
 
-## Настройка PC.BRL
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-21-30.png" width=1000>  
+### Настройка PC.MSK
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2015-43-21.png" width=1000>  
 
-## Результаты пингов
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-21-30.png" width=1000>  <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-21-30.png" width=1000>  <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-21-30.png" 
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-21-30.png" width=1000>  
+- с помощью команд ```/interface vlan``` настраиваем два новых интерфеса типа VLAN
+- с помощью команд ```/interface wireless security-profiles``` настраиваем профиль безопасности по умолчанию
+- с помощью команд ```/ip pool``` добавляем новые пулы ip адресов
+- команды ```/ip dhcp-server``` позволяют создать два новых dhcp сервера, связать с ними пулы адресов и вланы
+- далее с помощью ```/ip address``` назначаем ip адреса для физических и vlan интерфейсов
+- следующими командами добавляем новый DHCP клиент для интерфейса ether1
+- добавляем новые сети и шлюзы по умолчанию для DHCP сервера
+- устанавливаем имя системы R01
 
-### Вывод
+<br/><br/> 
+
+### Настройка PC.FRT
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2015-57-32.png" width=1000>  
+<br/><br/> 
+
+### Настройка PC.BRL
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-08-48.png" width=1000> 
+<br/><br/> 
+
+### Результаты пингов
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-10-22.png" width=1000> 
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-13-05.png" width=1000> 
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-14-04.png" width=1000>
+<br/><br/> 
+
+## Вывод
+Таким образом, были изучены принципы планирования IP адресов, настройки статической маршрутизации и сетевые функции устройств.
