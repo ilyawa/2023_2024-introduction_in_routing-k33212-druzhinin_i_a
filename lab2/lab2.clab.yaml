@@ -1,0 +1,45 @@
+name: lab2
+
+topology:
+  nodes:
+    R01.MSK:
+      image: vrnetlab/vr-routeros:6.47.9
+      kind: vr-ros
+      mgmt-ipv4: 172.16.0.10
+
+    R01.FRT:
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt-ipv4: 172.16.0.11
+      kind: vr-ros
+    
+    R01.BRL:
+      image: vrnetlab/vr-routeros:6.47.9
+      kind: vr-ros
+      mgmt-ipv4: 172.16.0.12
+
+    PC.MSK:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt-ipv4: 172.16.0.13
+
+    PC.FRT:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt-ipv4: 172.16.0.14
+    
+    PC.BRL:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt-ipv4: 172.16.0.15
+
+  links:
+    - endpoints: ["R01.MSK:eth1", "PC.MSK:eth1"]
+    - endpoints: ["R01.BRL:eth2", "R01.FRT:eth2"]
+    - endpoints: ["R01.BRL:eth3", "R01.MSK:eth2"]
+    - endpoints: ["R01.MSK:eth3", "R01.FRT:eth3"]
+    - endpoints: ["R01.FRT:eth1", "PC.FRT:eth1"]
+    - endpoints: ["R01.BRL:eth1", "PC.BRL:eth1"]
+
+mgmt:
+  network: static
+  ipv4-subnet: 172.16.0.0/24
