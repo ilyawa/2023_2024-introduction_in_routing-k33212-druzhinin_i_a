@@ -18,5 +18,8 @@ Date of finished: 26.11.2023
 
 ## Ход работы
 
-Описываем схему сети в файле lab2.clab.yaml согласно заданию
+Описываем схему сети в файле lab2.clab.yaml согласно заданию  
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-19-11-1.png" width=1000>  
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-19-20.png" width=1000>  
+
 
