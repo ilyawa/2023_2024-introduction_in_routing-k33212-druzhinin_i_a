@@ -145,7 +145,7 @@ mgmt:
 
 ### Результаты пингов
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/ping1.png" width=700> 
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/ping2-2.png" width=700> 
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/ping2.png" width=700> 
 <br/><br/> 
 
 ## Вывод
