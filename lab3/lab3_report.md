@@ -84,15 +84,15 @@ mgmt:
 <br></br>
 Запускаем Container Lab командой ```containerlab deploy```  
 
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-20-26-1.png" width=1000>  
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/clab_inspect.png" width=1000>  
 <br/><br/> 
 
 С помощью команды ```containerlab graph``` выведем схему топологию сети
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-21-30.png" width=1000>  
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/labtopology.jpg" width=1000>  
 <br/><br/> 
 
 ### Настройка R01.NY
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2013-42-08.png" width=1000>  
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/NY.png" width=1000>  
 
 - с помощью команд ```/interface wireless security-profiles``` настраиваем профиль безопасности по умолчанию
 - с помощью команд ```/ip pool``` добавляем новый пулл ip адресов
@@ -103,15 +103,15 @@ mgmt:
 <br/><br/> 
 
 ### Настройка R01.LND
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2014-42-24.png" width=1000>
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/LND.png" width=1000>
 <br/><br/> 
 
 ### Настройка R01.HKI
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2015-03-27.png" width=1000>
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/HKI.png" width=1000>
 <br/><br/> 
 
 ### Настройка R01.SPB
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2015-43-21.png" width=1000>  
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/SPB.png" width=1000>  
 
 - с помощью команд ```/interface wireless security-profiles``` настраиваем профиль безопасности по умолчанию
 - далее с помощью ```/ip dhcp-client``` добавим новый dhcp клиент на роутере
@@ -120,33 +120,32 @@ mgmt:
 <br/><br/> 
 
 ### Настройка R01.MSK
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2015-57-32.png" width=1000>  
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/MSK.png" width=1000>  
 <br/><br/> 
 
 ### Настройка R01.LBN
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-08-48.png" width=1000> 
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/LBN.png" width=1000> 
 <br/><br/> 
 
 ### Настройка SGI-Prism
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-08-48.png" width=1000> 
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/SGIprism.png" width=1000> 
 <br/><br/> 
 
 ### Настройка PC1
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-08-48.png" width=1000> 
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/PC1.png" width=1000> 
 <br/><br/> 
 
 ### Таблицы маршрутов mpls
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-10-22.png" width=700> 
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-13-05.png" width=700> 
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-14-04.png" width=700>
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-10-22.png" width=700> 
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-13-05.png" width=700> 
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-14-04.png" width=700>
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/NYmpls.png" width=700> 
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/LNDmpls.png" width=700> 
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/HKImpls.png" width=700>
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/MSKmpls.png" width=700> 
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/LBNmpls.png" width=700> 
 <br/><br/> 
 
 ### Результаты пингов
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-10-22.png" width=700> 
-<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-13-05.png" width=700> 
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/ping1.png" width=700> 
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/ping2.png" width=700> 
 <br/><br/> 
 
 ## Вывод
