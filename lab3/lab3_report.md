@@ -94,11 +94,16 @@ mgmt:
 ### Настройка R01.NY
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/NY.png" width=1000>  
 
+- с помощью команд ```/interface bridge```
+- с помощью команд ```/interface vpls```
 - с помощью команд ```/interface wireless security-profiles``` настраиваем профиль безопасности по умолчанию
-- с помощью команд ```/ip pool``` добавляем новый пулл ip адресов
-- с помощью команд ```/ip address``` назначаем ip адреса интерфейсам ether
-- далее с помощью ```/ip dhcp-client``` добавим новый dhcp клиент на роутере
-- с помощью ```/ip route``` добавим новые пути в таблицу маршрутизации на роутере
+- с помощью команд ```/routing ospf instance```
+- с помощью команд ```/ip address```
+- с помощью команд ```/ip dhcp-client```
+- с помощью команд ```/mpls ldp interface``` 
+- с помощью команд ```/routing ospf network```
+- далее с помощью ```/system identity``` 
+
 
 <br/><br/> 
 
@@ -112,11 +117,6 @@ mgmt:
 
 ### Настройка R01.SPB
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/SPB.png" width=1000>  
-
-- с помощью команд ```/interface wireless security-profiles``` настраиваем профиль безопасности по умолчанию
-- далее с помощью ```/ip dhcp-client``` добавим новый dhcp клиент на роутере
-- с помощью ```/ip route``` добавим новые пути в таблицу маршрутизации на роутере
-
 <br/><br/> 
 
 ### Настройка R01.MSK
