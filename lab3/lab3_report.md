@@ -91,7 +91,7 @@ mgmt:
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-21-30.png" width=1000>  
 <br/><br/> 
 
-### Настройка R01.MSK
+### Настройка R01.NY
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2013-42-08.png" width=1000>  
 
 - с помощью команд ```/interface wireless security-profiles``` настраиваем профиль безопасности по умолчанию
@@ -102,15 +102,15 @@ mgmt:
 
 <br/><br/> 
 
-### Настройка R01.FRT
+### Настройка R01.LND
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2014-42-24.png" width=1000>
 <br/><br/> 
 
-### Настройка R01.BRL
+### Настройка R01.HKI
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2015-03-27.png" width=1000>
 <br/><br/> 
 
-### Настройка PC.MSK
+### Настройка R01.SPB
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2015-43-21.png" width=1000>  
 
 - с помощью команд ```/interface wireless security-profiles``` настраиваем профиль безопасности по умолчанию
@@ -119,12 +119,26 @@ mgmt:
 
 <br/><br/> 
 
-### Настройка PC.FRT
+### Настройка R01.MSK
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2015-57-32.png" width=1000>  
 <br/><br/> 
 
-### Настройка PC.BRL
+### Настройка R01.LBN
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-08-48.png" width=1000> 
+<br/><br/> 
+
+### Настройка SGI-Prism
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-08-48.png" width=1000> 
+<br/><br/> 
+
+### Настройка PC1
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-08-48.png" width=1000> 
+<br/><br/> 
+
+### Таблицы маршрутов mpls
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-10-22.png" width=700> 
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-13-05.png" width=700> 
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2016-14-04.png" width=700>
 <br/><br/> 
 
 ### Результаты пингов
