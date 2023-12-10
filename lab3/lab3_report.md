@@ -94,12 +94,12 @@ mgmt:
 ### Настройка R01.NY
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab3/NY.png" width=1000>  
 
-- с помощью команд ```/interface bridge```
-- с помощью команд ```/interface vpls```
+- с помощью команд ```/interface bridge``` создадим виртуальные интерфейсы EoMPLS для транспорта MPLS трафика в ethernet сети и Lo0 для создания loopback
+- с помощью команд ```/interface vpls``` конфигурируем vpls, который представляет собой виртуальную локальную сеть между двумя удаленными устройствами
 - с помощью команд ```/interface wireless security-profiles``` настраиваем профиль безопасности по умолчанию
-- с помощью команд ```/routing ospf instance```
-- с помощью команд ```/ip address```
-- с помощью команд ```/ip dhcp-client```
+- с помощью команд ```/routing ospf instance``` настроим протокол динамической маршрутизации OSPF, который будет искать наикратчайшие пути в нашей сети
+- с помощью команд ```/ip address``` назначим IP адреса на физических интерфейсах
+- с помощью команд ```/ip dhcp-client``` настроим работу DHCP
 - с помощью команд ```/mpls ldp interface``` 
 - с помощью команд ```/routing ospf network```
 - далее с помощью ```/system identity``` 
