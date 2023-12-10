@@ -80,9 +80,8 @@ topology:
 mgmt:
   network: static
   ipv4-subnet: 172.16.0.0/24
-```
-<br/><br/> 
-
+```  
+<br></br>
 Запускаем Container Lab командой ```containerlab deploy```  
 
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab2/Screenshot%20from%202023-11-26%2012-20-26-1.png" width=1000>  
