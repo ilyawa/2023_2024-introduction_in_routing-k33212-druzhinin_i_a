@@ -4,9 +4,9 @@ Course: [Introduction in routing](https://github.com/itmo-ict-faculty/introducti
 Year: 2023/2024  
 Group: K33212  
 Author: Druzhinin Ilya Antonovich  
-Lab: Lab2  
-Date of create: 20.11.2023  
-Date of finished: 26.11.2023  
+Lab: Lab3    
+Date of create: 9.12.2023  
+Date of finished: 10.12.2023  
 
 ## Лабораторная работ №3 "Эмуляция распределенной корпоративной сети связи, настройка OSPF и MPLS, организация первого EoMPLS"
 
