@@ -161,7 +161,48 @@ topology:
 <br/><br/> 
 
 ### Задание 2  
+Для выполнения 2го задания лабораторной требуется предварительно разобрать VRF на роутерах NY, SPB, SVL, добавить на эти роутеры бриджы vpls и настроить ip адресацию на пк.
 
+### Настройка R01.NY
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab4/ny.png" width=1000>  
+
+- с помощью команд ```/interface bridge``` создадим виртуальные интерфейсы EoMPLS для транспорта MPLS трафика в ethernet сети и Lo0 для создания loopback
+- с помощью команд ```/interface vpls``` конфигурируем vpls, который представляет собой виртуальную локальную сеть между двумя удаленными устройствами
+- с помощью команд ```/interface wireless security-profiles``` настраиваем профиль безопасности по умолчанию
+- с помощью команд ```/routing ospf instance``` настроим протокол динамической маршрутизации OSPF, который будет искать наикратчайшие пути в нашей сети
+- с помощью команд ```/ip address``` назначим IP адреса на физических интерфейсах
+- с помощью команд ```/ip dhcp-client``` настроим работу DHCP
+- с помощью команд ```/mpls ldp interface``` настроим интерфейс, который будет использоваться для распростронения меток MPLS
+- далее с помощью ```/system identity``` задаем имя для роутера
+
+
+<br/><br/> 
+
+### Настройка R01.SPB
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab4/spb.png" width=1000>  
+<br/><br/> 
+
+### Настройка R01.SVL
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab4/svl.png" width=1000> 
+<br/><br/> 
+
+### Настройка PC1
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab4/pc1.png" width=1000> 
+<br/><br/> 
+
+### Настройка PC2
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab4/pc2.png" width=1000> 
+<br/><br/> 
+
+### Настройка PC3
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab4/pc3.png" width=1000> 
+<br/><br/> 
+
+### Результаты пингов
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab4/pc1-ping.png" width=700> 
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab4/pc2-ping.png" width=700> 
+<img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab4/pc3-ping.png" width=700> 
+<br/><br/> 
 
 ## Вывод
 Таким образом, были изучены протоколы BGP, MPLS и правила организации L3VPN и VPLS.
