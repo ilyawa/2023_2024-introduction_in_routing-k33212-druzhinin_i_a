@@ -160,5 +160,8 @@ topology:
 <img src="https://github.com/ilyawa/2023_2024-introduction_in_routing-k33212-druzhinin_i_a/blob/main/images/lab4/svl-ping2.png" width=700> 
 <br/><br/> 
 
+### Задание 2  
+
+
 ## Вывод
 Таким образом, были изучены протоколы BGP, MPLS и правила организации L3VPN и VPLS.
